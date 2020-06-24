@@ -27,7 +27,7 @@ public class Greetings {
 		
 	}
 	
-	public String getSubejct() {
+	public String getSubject() {
 		return subject;
 	}
 	
@@ -36,4 +36,6 @@ public class Greetings {
 		this.subject = subject;
 		
 	}
+
+	
 }
