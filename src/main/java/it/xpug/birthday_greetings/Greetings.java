@@ -10,7 +10,7 @@ public class Greetings {
 	
 	public Greetings birthday() {
 		this.setSubject("Happy Birthday!");
-		this.setMessage("Happy Birthday, dear %NAME%!".replace("%NAME%", employee.getFirstName()));
+		this.setMessage("Happy Birthday, dear %NAME%!".replace("%NAME%!", employee.getFirstName()));
 		return this;
 	}
 	
