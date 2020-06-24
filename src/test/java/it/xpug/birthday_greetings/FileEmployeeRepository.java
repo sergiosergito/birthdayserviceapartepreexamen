@@ -8,7 +8,7 @@ import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileEmployeeRepository {
+public class FileEmployeeRepository implements IEmployeeRepository{
 
 	private String filename;
 	public FileEmployeeRepository(String filename) {
